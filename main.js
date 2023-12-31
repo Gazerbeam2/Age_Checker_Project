@@ -1,8 +1,15 @@
 document.querySelector('button').addEventListener('click',ageCalculation)
 
 function ageCalculation(){
-const inputDate = ""
-const currentDate = ""
+const inputDate = document.querySelector('button').value
+const date = new Date();
 
-return currentDate - inputDate
+let day = date.getDate();
+let month = date.getMonth() + 1;
+let year = date.getFullYear();
+let currentDate = `${day}-${month}-${year}`;
+console.log(date);
+console.log(inputDate);
+
+//return currentDate - inputDate
 }
