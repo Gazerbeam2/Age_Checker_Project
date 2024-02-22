@@ -19,3 +19,5 @@ console.log(inputDate);
 //You need the current correct date
 //You need to compare the two and derive the age based on the distance between the two
 //Take this value and put that back in the DOM
+
+//Age formula = Given date - date of birth
