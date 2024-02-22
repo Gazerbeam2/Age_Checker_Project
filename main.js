@@ -2,7 +2,7 @@ const button = document.querySelector('button')
 button.addEventListener('click',ageCalculation)
 
 function ageCalculation(){
-const inputDate = document.querySelector('button').value
+const inputDate = document.querySelector('input').value
 const date = new Date();
 
 let day = date.getDate();
