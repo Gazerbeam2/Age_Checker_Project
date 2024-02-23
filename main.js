@@ -8,11 +8,13 @@ const date = new Date();
 let day = date.getDate();
 let month = date.getMonth() + 1;
 let year = date.getFullYear();
-let currentDate = `${day}-${month}-${year}`;
-console.log(date);
+let currentDate = `${year}-${month}-${day}`;
+let diff = Math.abs(currentDate - inputDate);
+console.log(diff)
+console.log(currentDate);
+
 console.log(inputDate);
 
-//return currentDate - inputDate
 }
 
 //You need the date input from the user
