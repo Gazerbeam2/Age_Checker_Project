@@ -23,7 +23,7 @@ figure,
 blockquote,
 dl,
 dd {
-  margin-block-end: 0;
+  margin: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
@@ -86,4 +86,23 @@ textarea:not([rows]) {
 /* Anything that has been anchored to should have extra scroll margin */
 :target {
   scroll-margin-block: 5ex;
+}
+
+/* Reset Ends Here */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4d6b0;
+}
+
+main {
+  max-width: 33rem;
+  padding: 7em;
+  border: 5px solid black;
+  border-radius: 25px;
+  background-color: #477998;
+  color: white;
 }
